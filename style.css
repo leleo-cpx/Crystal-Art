@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+/* DEFININDO FONTE E TAMANHOS*/
+
+body{
+    font-family: 'Kumbh Sans', Arial, Helvetica, sans-serif ;
+    background-color: #f4f4f4;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+h3{
+    font-size: 2.2rem;
+}
+
+h4{
+    font-size: 1.8rem;
+}
+
+h5{
+    font-size: 1.5em;
+}
+
+h6{
+    font-size: 1rem;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+a{
+    text-decoration: none;
+    color: #3d5dff;
+    font-weight: 400;
+}
+
+a:hover{
+    color: #001895;
+    font-weight: 600;
+}
+
+button:hover{
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/* CLASSES DE TEXTO */
+
+.titulo-azul{
+    color: #001895;
+    text-align: center;
+    width: auto;
+}
+
+/* CABEÇALHO DO SITE */
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 42px;
+    background-color: #ffffff;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 25px #2c2c2c31;
+    z-index: -3;
+}
+
+.cabecalho>img{
+    margin-right: 1rem;
+}
+
+
+/* CORPO DO SITE */
+
+.corpo{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.blocoblue{
+    border-radius: 10px;
+    width: 100%;
+    height: 10rem;
+    background-color: #0029FF;
+    color: white;
+    text-align: center;
+    align-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.space{
+    height: 2rem;
+}
+
+.color {
+    width: 100px;
+    height: 50px;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    border-radius: 10px;
+    background-color: #3d5dff;
+    color: #ffffff;
+}
+
+.hex-code {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container-desafio, .container-paleta {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-desafio>label{
+    text-align:left;
+    background-color: #0029FF;
+}
+
+#message {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.option {
+    margin: 5px 0;
+}

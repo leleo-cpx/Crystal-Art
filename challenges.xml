@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<challenges>
+    <challenge>
+        <question>Qual é a cor complementar do azul?</question>
+        <answer> Laranja</answer>
+        <options>
+            <option> Laranja</option>
+            <option> Verde</option>
+            <option> Amarelo</option>
+            <option> Vermelho</option>
+        </options>
+    </challenge>
+    <challenge>
+        <question>O que é design responsivo?</question>
+        <answer> Design que se adapta a diferentes tamanhos de tela.</answer>
+        <options>
+            <option> Design que aplica o conceito de luz e sombra para todos os dispositivos.</option>
+            <option> Design que se adapta a diferentes tamanhos de tela.</option>
+            <option> Design focado em mudar toda a estética para confundir o usuário.</option>
+            <option> Design focado em melhorar o armazenamento do siete para todos os dispositivos.</option>
+        </options>
+    </challenge>
+    <challenge>
+        <question>Qual técnica é indispensável para a criação de um post para redes sociais?</question>
+        <answer> Hierarquia de Texto</answer>
+        <options>
+            <option> UX Aplicado</option>
+            <option> Composição quoa</option>
+            <option> Hierarquia de Texto</option>
+            <option> Sombra</option>
+        </options>
+    </challenge>
+    <!-- Adicione mais desafios conforme necessário -->
+</challenges>
